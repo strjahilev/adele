@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+@import "header";
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+@import "section-one";
+@import "section-two";

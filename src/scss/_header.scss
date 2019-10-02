@@ -1,0 +1,92 @@
+@import 'mixin';
+.header{
+  display: flex;
+  justify-content: space-between;
+   .logo{
+    display: flex;
+    align-items: center;
+    img{
+      width: 68px;
+      height: 68px;
+      margin: 0;
+    }
+    p{
+      margin-left: 13px;
+      font-size: 15px;
+
+    }
+  }
+  img{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 26px;
+    height: 53px;
+  }
+}
+.row{
+  display: flex;
+  margin-top: 200px;
+  .head>*, .discription>*{
+    margin: 0;
+  }
+  .title{
+    margin-top: 84px;
+    .head{
+      padding-left: 31px;
+      border-left: 5px solid #18A3DD;
+      border-radius: 2px;
+      color: #333740;
+      h2{
+        font-size: 72px;
+              }
+      p{
+        font-size: 24px;
+              }
+
+
+    }
+  }
+  .discription{
+    margin-top: 74px;
+
+    p{
+      text-align: left;
+      color:#666666;
+      font-size: 17px;
+      letter-spacing: 1.26px;;
+      //letter-spacing: 1.26px;
+      //line-height: 1.28em;
+      padding-right: 24px;
+
+    }
+    .btn{
+      margin-top: 52px;
+      display: flex;
+      .button{
+        text-transform: uppercase;
+        font-family:  'Lato', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        width: 179px;
+        padding: 27px 37px;
+        background: #18A3DD;
+        border-radius: 50px;
+        font-size: 17px;
+        letter-spacing: 1.26px;
+
+      }
+      label{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px 37px;
+        color: #333740;
+        font-size: 16px;
+        letter-spacing: 1.26px;
+
+      }
+    }
+  }
+
+}

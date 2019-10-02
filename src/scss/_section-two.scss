@@ -1,0 +1,54 @@
+#two{
+  .title{
+      display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 107px;
+    margin-bottom: 76px;
+    h2{
+      margin: 0;
+      font-size: 30px;
+      letter-spacing: 1.30px;
+      font-family: Raleway, sans-serif;
+    }
+    h2:first-child{
+      padding: 11px 26px 11px 0;
+      border-right: 0.5px solid #18A3DD;
+      }
+    h2:nth-child(2){
+      padding: 11px 0 11px 26px ;
+      border-left: 0.5px solid #18A3DD;
+      }
+    p{
+      text-align: center;
+      width: 100%;
+      color: #83888F;
+      font-size: 18px;
+    }
+
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+
+    .card{
+      h2{
+        margin: 0;
+        font-size: 20px;
+        font-family: Raleway, sans-serif;
+        color: #333740;
+        letter-spacing: 1.30px;
+        padding-bottom: 22px;
+      };
+      p{
+        margin: 0;
+        font-size: 18px;
+        color:#5B5F64;
+        letter-spacing: 1.30px;
+        line-height: 1.28em;
+        margin-bottom: 58px;
+      }
+    }
+
+  }
+}

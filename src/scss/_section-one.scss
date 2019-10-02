@@ -1,0 +1,41 @@
+#one{
+
+  .container{
+    display: flex;
+    background: linear-gradient(to top left, #0F0816, #21172B);
+    width: auto;
+    margin-top: 120px;
+    margin-bottom: 52px;
+    img{
+      margin-top:-120px;
+      margin-bottom: -52px;
+      margin-left: 82px;
+    }
+    .cards{
+      display: flex;
+      margin-left: 126px;
+      .card{
+        padding-right: 122px;
+        h2{
+          border-left: #18A3DD solid 5px;
+          border-radius: 2px;
+          padding-left: 25px;
+          color: white;
+          font-size: 72px;
+          font-family:  'Lato', sans-serif;
+          letter-spacing: 1.30px;
+          margin-bottom: 20px;
+        }
+        p{
+          color:#666666 ;
+          margin: 0;
+          font-size: 18px;
+          span{
+            color:#18A3DD;
+          }
+        }
+      }
+    }
+  }
+
+}
