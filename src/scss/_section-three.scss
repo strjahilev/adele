@@ -1,0 +1,53 @@
+@import "mixins";
+@import "variables";
+#three{
+  font-family: $fontLato;
+  @include title;
+  @include border;
+  .title{
+    margin-top: 165px;
+    padding-top: 0;
+  }
+  img[alt='Clip']{
+    height: 300px;
+    margin-top: 51px;
+    margin-right: -62px;
+
+    margin-left: 62px;
+    z-index: 3
+
+  }
+  img[alt='Clip2']{
+
+  }
+  .cards{
+    padding-bottom: 189px;
+  }
+  .card{
+    display: flex;
+    margin-left: 29px;
+    flex-direction: row;
+
+    @include flex;
+
+    .discr:first-child{
+      margin-right: 23px;
+    }
+    h2{
+      font-size: 40px;
+      span{
+        font-size: 16px;
+      }
+    }
+    p{
+      color:$colorBlue;
+    }
+    .disc{
+      h2{
+        font-size: 16px;
+
+      }
+    }
+
+  }
+}

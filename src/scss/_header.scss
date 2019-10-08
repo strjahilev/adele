@@ -1,4 +1,4 @@
-@import 'mixin';
+@import 'variables';
 .header{
   display: flex;
   justify-content: space-between;
@@ -33,9 +33,9 @@
     margin-top: 84px;
     .head{
       padding-left: 31px;
-      border-left: 5px solid #18A3DD;
+      border-left: 5px solid $colorBlue;
       border-radius: 2px;
-      color: #333740;
+      color: $colorDurkGrey;
       h2{
         font-size: 72px;
               }
@@ -51,7 +51,7 @@
 
     p{
       text-align: left;
-      color:#666666;
+      color:$colorGrey;
       font-size: 17px;
       letter-spacing: 1.26px;;
       //letter-spacing: 1.26px;
@@ -64,14 +64,14 @@
       display: flex;
       .button{
         text-transform: uppercase;
-        font-family:  'Lato', sans-serif;
+        font-family:  $fontLato;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
         color: white;
         width: 179px;
         padding: 27px 37px;
-        background: #18A3DD;
+        background: $colorBlue;
         border-radius: 50px;
         font-size: 17px;
         letter-spacing: 1.26px;
@@ -81,7 +81,7 @@
         text-align: center;
         text-transform: uppercase;
         padding: 30px 37px;
-        color: #333740;
+        color: $colorDurkGrey;
         font-size: 16px;
         letter-spacing: 1.26px;
 

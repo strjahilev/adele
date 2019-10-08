@@ -1,0 +1,13 @@
+@import "mixins";
+@import "variables";
+#five{
+      background: $colorLight;
+      @include title;
+      .image{
+            margin-top: 43px;
+            padding-bottom: 78px;
+            display: flex;
+            justify-content: center;
+
+      }
+}

@@ -1,0 +1,54 @@
+@mixin title (){
+  .title{
+    @include flex;
+    justify-content: center;
+    padding-top: 107px;
+    margin-bottom: 76px;
+    h2{
+      margin: 0;
+      font-size: 30px;
+      letter-spacing: 1.30px;
+      font-family: $fontRalewey;
+    }
+
+    p{
+      text-align: center;
+      width: 100%;
+      color: #83888F;
+      font-size: 18px;
+    }
+  }
+}
+@mixin cards(){
+  display: flex;
+  justify-content: center;
+}
+@mixin flex(){
+  display:flex;
+  flex-wrap: wrap;
+}
+@mixin border(){
+  h2:first-child{
+    padding: 11px 26px 11px 0;
+    border-right: 0.5px solid $colorBlue;
+  }
+  h2:nth-child(2){
+    padding: 11px 0 11px 26px ;
+    border-left: 0.5px solid $colorBlue;
+  }
+}
+@mixin button(){
+
+      text-transform: uppercase;
+      font-family:  $fontLato;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      //width: 179px;
+      padding: 27px 37px;
+      background: $colorBlue;
+      border-radius: 50px;
+      font-size: 17px;
+      letter-spacing: 1.26px;
+}

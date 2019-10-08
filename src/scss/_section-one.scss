@@ -14,24 +14,30 @@
     .cards{
       display: flex;
       margin-left: 126px;
+      .card:first-child{
+        margin-right: 0;
+      }
+      .card:last-child{
+        margin-left: 0;
+      }
       .card{
-        padding-right: 122px;
+        //padding-right: 122px;
         h2{
-          border-left: #18A3DD solid 5px;
+          border-left: $colorBlue solid 5px;
           border-radius: 2px;
           padding-left: 25px;
           color: white;
           font-size: 72px;
-          font-family:  'Lato', sans-serif;
+          font-family:  $fontLato;
           letter-spacing: 1.30px;
           margin-bottom: 20px;
         }
         p{
-          color:#666666 ;
+          color:$colorGrey ;
           margin: 0;
           font-size: 18px;
           span{
-            color:#18A3DD;
+            color:$colorBlue;
           }
         }
       }
